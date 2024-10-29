@@ -1,0 +1,22 @@
+train:
+  seed: 0
+  epochs: 200
+  lr: 2e-3
+  step_size: 150
+  gamma: 0.6
+  result_folder: results
+GAT:
+  omics_knbrs: 10
+  n_neighbors: 4
+  in_dim: 64
+  num_hidden: 64
+  out_dim: 64
+GM:
+  feat_dim: 4
+  gnn_layer: 1
+plt:
+  tool: leiden
+  n_clusters: 9
+  start: 0.05
+  end: 1.0
+  increment: 0.01
